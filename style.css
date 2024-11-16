@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin-top: 20px;
+}
+#question{
+    text-align: center;
+    margin-top: 20px;
+}
+#main{
+    margin-top: 40px;
+   column-count: 3;
+   column-gap: 10px;
+}
+.one{
+    text-align: justify;
+    background-color: burlywood;
+    margin-left: 20px;
+}
+.two{
+    text-align: justify;
+    background-color:cadetblue;
+}
+.three{
+    text-align: justify;
+    background-color: brown;
+    margin-right: 20px;
+    color:aliceblue;
+}
+.one:hover{
+    background-color: black;
+    color:burlywood;
+}
+.two:hover{
+    background-color: black;
+    color: rgb(117, 206, 209);
+}
+.three:hover{
+    background-color: white;
+    color: brown;
+}
